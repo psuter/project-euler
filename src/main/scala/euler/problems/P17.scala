@@ -9,6 +9,7 @@ object P17 extends Problem {
     println((1 to 1000).map(i => spellOut(i).filter(c => c != ' ' && c != '-').length).sum)
   }
 
+  // Not the most efficient. Would be faster to immediately compute the number of letters, but that's more fun.
   def spellOut(n : Int) : String = n match {
     case 0 => "zero"
     case 1 => "one"
