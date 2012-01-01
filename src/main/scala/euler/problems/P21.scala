@@ -26,8 +26,5 @@ object P21 extends Problem {
     println(sum)
   }
 
-  // Not so optimal...
-  def divisors(n : Int) : Seq[Int] = (1 to n / 2).filter(i => n % i == 0)
-
-  def d(n : Int) : Int = divisors(n).sum
+  def d(n : Int) : Int = Common.properDivisors(n).sum
 }

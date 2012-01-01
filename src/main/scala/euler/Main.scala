@@ -27,6 +27,6 @@ object Main {
   }
 
   import euler.problems._
-  val problems : Map[Int,Problem] = Map(1 -> P1, 14 -> P14, 16 -> P16, 17 -> P17, 18 -> P18, 19 -> P19, 21 -> P21, 22 -> P22, 25 -> P25, 67 -> P67, 92 -> P92)
+  val problems : Map[Int,Problem] = Map(1 -> P1, 14 -> P14, 16 -> P16, 17 -> P17, 18 -> P18, 19 -> P19, 21 -> P21, 22 -> P22, 23 -> P23, 25 -> P25, 67 -> P67, 92 -> P92)
    
 }
