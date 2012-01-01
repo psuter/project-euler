@@ -1,2 +1,2 @@
 #!/bin/bash
-scala -cp ./target/scala-2.9.1.final/classes euler.Main $@
+scala -cp ./target/scala-2.9.1.final/project-euler-solutions_2.9.1-1.0.jar euler.Main $@
